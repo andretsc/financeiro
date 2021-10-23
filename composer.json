@@ -1,0 +1,30 @@
+{
+    "name": "andre/financeiro",
+    "description": "Sistema Gerenciamento Financeiro para integrar em outros PHP",
+    "type": "project",
+    "minimum-stability": "stable",
+    "license":"MIT",
+    "authors": [
+    {
+       "name": "Andre Silva",
+       "email": "andre@bitelecom.jp",
+       "role": "Developer",
+       "homepage": "https://presage.jp"
+    }
+    ],
+    "config": {
+        "vendor-dir": "assets"
+    },
+    "autoload": {
+        "psr-4": {
+            "Assets\\":"assets/"
+        },
+        "files": [
+            "index.php"
+        ]
+    },
+    "require": {
+      "coffeecode/uploader": "1.0.10"
+            }
+    }
+

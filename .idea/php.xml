@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/assets/js/core" />
+      <path value="$PROJECT_DIR$/assets/img/faces" />
+      <path value="$PROJECT_DIR$/assets/js/plugins" />
+      <path value="$PROJECT_DIR$/assets/scss/paper-dashboard" />
+      <path value="$PROJECT_DIR$/assets/coffeecode/uploader" />
+      <path value="$PROJECT_DIR$/assets/composer" />
+    </include_path>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/assets/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
